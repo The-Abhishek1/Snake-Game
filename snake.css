@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: conic-gradient(rgb(251, 255, 0), rgb(0, 217, 255), rgb(14, 222, 14), rgb(192, 199, 48), rgb(205, 131, 41));
+}
+
+#gameContainer {
+    text-align: center;
+}
+
+#gameBoard {
+    border: 3px solid;
+}
+
+#scoreText {
+    font-family: "Permanent Marker", cursive;
+    font-size: 100px;
+}
+
+#resetBtn {
+    font-family: "Permanent Marker", cursive;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
